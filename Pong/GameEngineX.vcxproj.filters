@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{ccdbdf11-c381-4f92-bf67-ba05fce45ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Public">
+      <UniqueIdentifier>{75c2830e-ea9b-4f39-a9f0-30582628d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{3f73a39c-59f6-4cb6-a0b8-d251275c643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public">
+      <UniqueIdentifier>{6dcd4022-feb1-45d9-a4a5-3b9cee46ecd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private">
+      <UniqueIdentifier>{9e4c503e-26a9-484b-be5c-d94f35576fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\DesignPatterns">
+      <UniqueIdentifier>{6d4370dd-ed19-44c2-8ba6-5c8765e507c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\DesignPatterns\Observer">
+      <UniqueIdentifier>{4feaa9ef-ab93-4c9b-9a4d-759f48c3def4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects">
+      <UniqueIdentifier>{75a5d63a-529c-4688-873d-f02e5c72685e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components">
+      <UniqueIdentifier>{2e740bd4-0656-4d54-8ab0-f35df43016dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Collision">
+      <UniqueIdentifier>{57c2fae5-1bb0-4980-be12-0e98e994fcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Renderers">
+      <UniqueIdentifier>{d6013729-abd0-4340-89d6-81a9b502a045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Renderers\Shapes">
+      <UniqueIdentifier>{67d3127e-f78c-47a7-9ae5-ba2c705b7e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Transform">
+      <UniqueIdentifier>{c5ed7426-140c-4219-920a-2ff33e42c874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\DataStructures">
+      <UniqueIdentifier>{e66575da-2ca4-4122-bf7d-3be168989f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\Libraries">
+      <UniqueIdentifier>{5d980b04-c279-477f-bdaa-d1512e15ee4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Behaviours">
+      <UniqueIdentifier>{015bae43-eabe-4072-a78b-ddfd670d56dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Prefabs">
+      <UniqueIdentifier>{fc80c4ef-cb72-46b4-b822-e31a518d1d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Behaviours\Ball">
+      <UniqueIdentifier>{9d118ffa-ea69-4717-98e2-0d37cf05087c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Behaviours\Player">
+      <UniqueIdentifier>{4a1c8647-5ac1-4e01-a4a2-4eab25956058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameManagement">
+      <UniqueIdentifier>{98b363fb-ef73-4b14-acaf-523c6ca16911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Behaviours\Goal">
+      <UniqueIdentifier>{f54879db-e063-456c-b798-f5562aac08ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Components\Renderers\Text">
+      <UniqueIdentifier>{f7c57e64-dbe0-4da8-9971-040c25deb247}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Public\EngineInterface.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\EngineTypes.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameInterface.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\SDL.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Singleton.h">
+      <Filter>Source Files\Game\Private\DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Observer\Observer.h">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Observer\Notifier.h">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Game.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\GameObject.h">
+      <Filter>Source Files\Game\Private\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Component.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\ComponentType.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Collision\AABBCollider.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Collision\CircleCollider.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Collision\Collider.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Collision\CollisionCalculator.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Collision\CollisionData.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Renderers\Renderer.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Renderers\Shapes\Circle.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Renderers\Shapes\Rectangle.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Renderers\Shapes\Shape.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Observer\EventData.h">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Transforms\Transform.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DataStructures\Vector2.h">
+      <Filter>Source Files\Game\Private\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Libraries\Math.h">
+      <Filter>Source Files\Game\Private\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Behaviours\BehaviourScript.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Prefabs\Ball.h">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Prefabs\Paddle.h">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Behaviours\Ball\BallMovement.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Behaviours\Player\Player.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Behaviours\Player\Player2.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Behaviours\Player\Player1.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Prefabs\Wall.h">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameManagement\GameManager.h">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameManagement\GameController.h">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Behaviours\Goal\Goal.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Behaviours\Goal\GoalEvent.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Prefabs\GoalGO.h">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Renderers\Text\Text.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Components\Renderers\IRenderable.h">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Private\Main.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Game.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\DesignPatterns\Observer\Notifier.cpp">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\GameObject.cpp">
+      <Filter>Source Files\Game\Private\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Component.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Collision\AABBCollider.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Collision\CircleCollider.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Collision\Collider.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Collision\CollisionCalculator.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Collision\CollisionData.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Renderers\Shapes\Circle.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Renderers\Shapes\Rectangle.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Renderers\Shapes\Shape.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Transforms\Transform.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\DataStructures\Vector2.cpp">
+      <Filter>Source Files\Game\Private\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Renderers\Renderer.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Libraries\Math.cpp">
+      <Filter>Source Files\Game\Private\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Behaviours\BehaviourScript.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Prefabs\Ball.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Prefabs\Paddle.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Behaviours\Ball\BallMovement.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Behaviours\Player\Player.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Behaviours\Player\Player1.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Behaviours\Player\Player2.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Prefabs\Wall.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameManagement\GameManager.cpp">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameManagement\GameController.cpp">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Behaviours\Goal\Goal.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Behaviours\Goal\GoalEvent.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Behaviours\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Prefabs\GoalGO.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Components\Renderers\Text\Text.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Components\Renderers\Text</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
